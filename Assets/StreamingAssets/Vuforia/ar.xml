@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="20190111_181114" size="4.800000 4.872949"/>
+        <ImageTarget name="c.Back" size="19.200001 6.400000"/>
+        <ImageTarget name="c.Top" size="19.200001 13.760000"/>
+        <ImageTarget name="c.Front" size="19.200001 6.400000"/>
+        <ImageTarget name="c.Right" size="13.760000 6.400000"/>
+        <ImageTarget name="c.Bottom" size="19.200001 13.760000"/>
+        <ImageTarget name="c.Left" size="13.760000 6.400000"/>
+        <MultiTarget name="c">
+            <Part name="c.Left" translation="-9.600000381469727 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="c.Right" translation="9.600000381469727 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="c.Front" translation="0 0 6.880000114440918" rotation="AD: 1 0 0 0"/>
+            <Part name="c.Back" translation="0 0 -6.880000114440918" rotation="AD: 0 1 0 180"/>
+            <Part name="c.Top" translation="0 3.200000047683716 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="c.Bottom" translation="0 -3.200000047683716 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
