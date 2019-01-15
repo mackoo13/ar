@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
-        <ImageTarget name="20190111_181114" size="4.800000 4.872949"/>
         <ImageTarget name="c.Back" size="19.200001 6.400000"/>
         <ImageTarget name="c.Top" size="19.200001 13.760000"/>
         <ImageTarget name="c.Front" size="19.200001 6.400000"/>
