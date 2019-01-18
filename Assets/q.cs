@@ -5,7 +5,7 @@ using UnityEngine;
 public class q : MonoBehaviour {
 	
 	Rigidbody rb;
-	bool falling;
+	public bool falling;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +18,9 @@ public class q : MonoBehaviour {
 		if(!falling) {
 			float t = Time.realtimeSinceStartup;
 			transform.position = new Vector3(Mathf.Sin(t*2) * 5, transform.position[1], transform.position[2]);
+		}
+		else{
+			print(transform.position);
 		}
 		
 		foreach(Touch touch in Input.touches) {
