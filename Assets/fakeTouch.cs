@@ -4,7 +4,7 @@
      
      public class TouchCreator
      {
-         static BindingFlags flag = BindingFlags.Instance | BindingFlags.NonPublic;
+         //static BindingFlags flag = BindingFlags.Instance | BindingFlags.NonPublic;
          static Dictionary<string, FieldInfo> fields;
      
          object touch;
@@ -33,12 +33,12 @@
              foreach(var f in typeof(Touch).GetFields(BindingFlags.Instance | BindingFlags.NonPublic))
              {
                  fields.Add(f.Name, f);
-                 Debug.Log("name: " + f.Name);
+                 //Debug.Log("name: " + f.Name);
              }
          }
      }
 	 
-	  public class InputHelper : MonoBehaviour {
+public class InputHelper : MonoBehaviour {
  
      private static TouchCreator lastFakeTouch;
  

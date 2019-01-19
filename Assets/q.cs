@@ -14,13 +14,10 @@ public class q : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody>();
 		falling = false;
-		transform.localPosition = new Vector3(start_x, start_y, start_z);
+		//transform.localPosition = new Vector3(start_x, start_y, start_z);
 	}
 	
-	public void Test(){
-		print("Tralalala");
-	}
-	
+
 	public void Fall(){
 		print("FALLING!");
 		falling = true;
