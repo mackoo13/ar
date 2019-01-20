@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class q : MonoBehaviour {
 	
+	public float deepVoid = -100f;
 	Rigidbody rb;
 	public bool falling;
 
@@ -26,6 +27,9 @@ public class q : MonoBehaviour {
 		if(!falling) {
 			float t = Time.realtimeSinceStartup;
 			transform.localPosition = new Vector3(Mathf.Sin(t*2) * 13, transform.localPosition[1], transform.localPosition[2]);
+		}
+		if(transform.localPosition[1] < deepVoid){
+			Destroy(gameObject);
 		}
 	}
 
