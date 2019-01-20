@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class q : MonoBehaviour {
-	public float start_x = 0.0f;
-	public float start_y = 8.2f;
-	public float start_z = 8.2f;
 	
 	Rigidbody rb;
 	public bool falling;
@@ -14,7 +11,6 @@ public class q : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody>();
 		falling = false;
-		//transform.localPosition = new Vector3(start_x, start_y, start_z);
 	}
 	
 
@@ -29,7 +25,7 @@ public class q : MonoBehaviour {
 	void Update () {
 		if(!falling) {
 			float t = Time.realtimeSinceStartup;
-			transform.localPosition = new Vector3(Mathf.Sin(t*2) * 5, transform.localPosition[1], transform.localPosition[2]);
+			transform.localPosition = new Vector3(Mathf.Sin(t*2) * 13, transform.localPosition[1], transform.localPosition[2]);
 		}
 	}
 
