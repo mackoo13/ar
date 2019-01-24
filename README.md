@@ -2,7 +2,7 @@
 This is a simple augumented reality app made with Unity 2017.3 and Vuforia.
 
 ## How to play
-To play you need a box (shown below, not inluded). Position it in the phone camera view. A small cube should appear on the screen above the box. 
+To play you need a box (shown below, not included). Position it in the phone camera view. A small cube should appear on the screen above the box. 
 Touch the screen to make it fall on the box. A new one will appear after that. Try to make a tower!
 
 ![obrazek pudełka](Images/screen1.png?raw=true "Title")
